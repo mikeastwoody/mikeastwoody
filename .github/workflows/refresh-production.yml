@@ -1,0 +1,38 @@
+name: Refresh production panel
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-production
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Test the generator
+        run: python3 -m unittest discover -s tests
+
+      - name: Rebuild the panel from the App Store
+        run: python3 scripts/build_profile.py
+
+      - name: Commit if anything changed
+        run: |
+          if [ -z "$(git status --porcelain -- README.md assets/profile)" ]; then
+            echo "Panel unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/profile
+          git commit -m "Refresh production panel"
+          git push

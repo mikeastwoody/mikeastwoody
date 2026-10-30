@@ -1,0 +1,26 @@
+{
+  "country": "us",
+  "apps": [
+    {"id": 6762054255, "name": "Hazlo", "subtitle": "Daily habits. Real identity."},
+    {"id": 6819787709, "name": "Teleprompter: Eye Contact", "subtitle": "Read your script, record video"},
+    {"id": 6760758188, "name": "Tobydoro", "subtitle": "Flowmodoro deep work tracker"},
+    {"id": 6762054184, "name": "tregua", "subtitle": "Screen time & digital detox"},
+    {"id": 6761775671, "name": "Countie", "subtitle": "Event counter widget & alerts"}
+  ],
+  "cards": [
+    {
+      "slug": "feedzzie",
+      "url": "https://feedzzie.com",
+      "label": "also building",
+      "title": "Feedzzie",
+      "text": "Collect ideas, manage roadmaps and tell your users what changed."
+    },
+    {
+      "slug": "firstmate",
+      "url": "https://github.com/kunchenguid/firstmate",
+      "label": "open source",
+      "title": "firstmate",
+      "text": "Contributor. Talk to one agent, ship with a crew."
+    }
+  ]
+}
