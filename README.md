@@ -1,11 +1,11 @@
 <!-- production:start -->
 <p>
 <img src="assets/profile/head.svg" width="846" align="top" alt="mikeastwood / production: 5 of 5 apps live. Hi, I&#x27;m Mike. Seven years keeping production up as an SRE / DevOps engineer. Now the production is mine: iOS apps I design, build and ship alone."><br>
-<a href="https://apps.apple.com/app/id6762054255"><img src="assets/profile/app-6762054255.svg" width="846" align="top" alt="Hazlo — Daily habits. Real identity. — version 1.7.0, last release 2026-10-29, live on the App Store"></a><br>
+<a href="https://apps.apple.com/app/id6761775671"><img src="assets/profile/app-6761775671.svg" width="846" align="top" alt="Countie — Event counter widget &amp; alerts — version 1.2.1, last release 2026-11-05, live on the App Store"></a><br>
+<a href="https://apps.apple.com/app/id6762054184"><img src="assets/profile/app-6762054184.svg" width="846" align="top" alt="tregua — Screen time &amp; digital detox — version 2.2.0, last release 2026-11-05, live on the App Store"></a><br>
+<a href="https://apps.apple.com/app/id6762054255"><img src="assets/profile/app-6762054255.svg" width="846" align="top" alt="Hazlo — Daily habits. Real identity. — version 1.7.1, last release 2026-11-05, live on the App Store"></a><br>
 <a href="https://apps.apple.com/app/id6819787709"><img src="assets/profile/app-6819787709.svg" width="846" align="top" alt="Teleprompter: Eye Contact — Read your script, record video — version 1.0.0, last release 2026-10-27, live on the App Store"></a><br>
 <a href="https://apps.apple.com/app/id6760758188"><img src="assets/profile/app-6760758188.svg" width="846" align="top" alt="Tobydoro — Flowmodoro deep work tracker — version 1.4.2, last release 2026-10-27, live on the App Store"></a><br>
-<a href="https://apps.apple.com/app/id6762054184"><img src="assets/profile/app-6762054184.svg" width="846" align="top" alt="tregua — Screen time &amp; digital detox — version 2.1.3, last release 2026-10-22, live on the App Store"></a><br>
-<a href="https://apps.apple.com/app/id6761775671"><img src="assets/profile/app-6761775671.svg" width="846" align="top" alt="Countie — Event counter widget &amp; alerts — version 1.2.0, last release 2026-06-12, live on the App Store"></a><br>
 <a href=".github/workflows/refresh-production.yml"><img src="assets/profile/foot.svg" width="846" align="top" alt="Refreshed daily from the App Store by a GitHub Action"></a>
 </p>
 <!-- production:end -->
